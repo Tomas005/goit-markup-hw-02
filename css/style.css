@@ -52,6 +52,7 @@ span:first-of-type {
   cursor: pointer;
   color: #212121;
   padding: 6px 22px;
+  background: #f5f4fa;
 }
 .image-title {
   font-weight: 700;
