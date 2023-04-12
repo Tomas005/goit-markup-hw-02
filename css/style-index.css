@@ -21,7 +21,7 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
 }
-span:first-of-type {
+.span-logo-header {
   color: #000000;
 }
 .list {
@@ -134,4 +134,7 @@ span:first-of-type {
 }
 .footer {
   background: #2f303a;
+}
+.span-logo-footer {
+  color: #ffffff;
 }
