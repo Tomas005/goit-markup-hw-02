@@ -16,71 +16,87 @@
   </head>
   <body>
     <header>
-      <a href="./index.html"><span>Web</span>Studio</a>
-
+      <!-- Logo -->
+      <a class="webstudio" href="./index.html">Web<span>Studio</span></a>
+      <!-- nav -->
       <nav>
-        <ul>
+        <ul class="list">
           <li>
-            <a href="https://tomas005.github.io/goit-markup-hw-01/agencja"
+            <a
+              class="nav"
+              href="https://tomas005.github.io/goit-markup-hw-01/agencja"
               >Agencja</a
             >
           </li>
           <li>
-            <a href="./portfolio.html">Portfolio</a>
+            <a class="nav" href="./portfolio.html">Portfolio</a>
           </li>
           <li>
-            <a href="https://tomas005.github.io/goit-markup-hw-01/kontakt"
+            <a
+              class="nav"
+              href="https://tomas005.github.io/goit-markup-hw-01/kontakt"
               >Kontakt</a
             >
           </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
+      <!-- info -->
+      <div>
+        <ul class="list">
+          <li>
+            <a class="info" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li><a class="info" href="tel:+48111111111">+48 111 111 111</a></li>
+        </ul>
+      </div>
     </header>
 
     <main>
-      <section>
+      <!-- Section "effective solution for your business" -->
+
+      <section class="box-h1">
         <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
 
-        <button type="button">Zamów usługę</button>
+        <button class="button" type="button">Zamów usługę</button>
       </section>
 
-      <section>
-        <ul>
-          <li>
-            <h3>LOREM IPSUM</h3>
+      <!-- our strengths -->
 
-            <p>
+      <section class="our-strenghts">
+        <ul class="list">
+          <li>
+            <h3 class="strenghts-items">LOREM IPSUM</h3>
+
+            <p class="strenghts-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
 
           <li>
-            <h3>LOREM IPSUM</h3>
+            <h3 class="strenghts-items">LOREM IPSUM</h3>
 
-            <p>
+            <p class="strenghts-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
 
           <li>
-            <h3>LOREM IPSUM</h3>
+            <h3 class="strenghts-items">LOREM IPSUM</h3>
 
-            <p>
+            <p class="strenghts-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
 
           <li>
-            <h3>LOREM IPSUM</h3>
+            <h3 class="strenghts-items">LOREM IPSUM</h3>
 
-            <p>
+            <p class="strenghts-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -88,9 +104,11 @@
         </ul>
       </section>
 
+      <!-- what we do -->
+
       <section>
-        <h2>Czym się zajmujemy</h2>
-        <ul>
+        <h2 class="what-we-do">Czym się zajmujemy</h2>
+        <ul class="list">
           <li>
             <img
               src="images/img.jpg"
@@ -120,9 +138,11 @@
         </ul>
       </section>
 
-      <section>
+      <!-- our teeam -->
+
+      <section class="our-team">
         <h2>Nasz zespół</h2>
-        <ul>
+        <ul class="list">
           <li>
             <figure>
               <img
@@ -132,8 +152,8 @@
                 height="260"
               />
               <figcaption>
-                <p>John Doe</p>
-                <span>Product Designer</span>
+                <p class="team-members-names">John Doe</p>
+                <p class="team-members-jobs">Product Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -147,8 +167,8 @@
                 height="260"
               />
               <figcaption>
-                <p>John Doe</p>
-                <span>Frontend Developer</span>
+                <p class="team-members-names">John Doe</p>
+                <p class="team-members-jobs">Frontend Developer</p>
               </figcaption>
             </figure>
           </li>
@@ -162,8 +182,8 @@
                 height="260"
               />
               <figcaption>
-                <p>John Doe</p>
-                <span>Marketing</span>
+                <p class="team-members-names">John Doe</p>
+                <p class="team-members-jobs">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -177,8 +197,8 @@
                 height="260"
               />
               <figcaption>
-                <p>John Doe</p>
-                <span>UI Designer</span>
+                <p class="team-members-names">John Doe</p>
+                <p class="team-members-jobs">UI Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -186,12 +206,15 @@
       </section>
     </main>
     <footer>
-      <a href="./index.html"><span>Web</span>Studio</a>
-
-      <ul>
+      <!-- Logo -->
+      <a class="webstudio" href="./index.html">Web<span>Studio</span></a>
+      <!-- Info -->
+      <ul class="list">
         <li><address>m. Warszawa, Aleje Jerozolimskie 21</address></li>
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        <li>
+          <a class="info" href="mailto:info@example.com">info@example.com</a>
+        </li>
+        <li><a class="info" href="tel:+48111111111">+48 111 111 111</a></li>
       </ul>
     </footer>
   </body>
