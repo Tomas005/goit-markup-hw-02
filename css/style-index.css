@@ -1,6 +1,17 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+.header {
+  background: #ffffff;
+}
+.info-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #757575;
+}
 .webstudio {
   color: #2196f3;
   text-decoration: none;
@@ -27,16 +38,25 @@ span:first-of-type {
   text-decoration: none;
   color: #212121;
 }
-.info:hover {
+.info-footer:hover,
+.info-header:hover,
+.address:hover {
   color: #2196f3;
 }
-.info {
+.info-footer {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #757575;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+.address {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
   cursor: pointer;
 }
 .button:hover {
@@ -111,4 +131,7 @@ span:first-of-type {
   font-size: 16px;
   line-height: 19px;
   color: #757575;
+}
+.footer {
+  background: #2f303a;
 }
