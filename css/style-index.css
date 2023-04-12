@@ -112,3 +112,6 @@ span:first-of-type {
   line-height: 19px;
   color: #757575;
 }
+.footer {
+  background: #2f303a;
+}
