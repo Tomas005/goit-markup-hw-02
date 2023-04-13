@@ -21,9 +21,7 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
 }
-span:first-of-type {
-  color: #000000;
-}
+
 .list {
   list-style-type: none;
 }
