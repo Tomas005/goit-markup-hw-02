@@ -93,3 +93,9 @@ span:first-of-type {
 .footer {
   background: #2f303a;
 }
+.span-logo-footer {
+  color: #ffffff;
+}
+.span-logo-header {
+  color: #000000;
+}
