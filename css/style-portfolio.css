@@ -21,7 +21,9 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
 }
-
+.span-logo-header {
+  color: #000000;
+}
 .list {
   list-style-type: none;
 }
@@ -93,7 +95,4 @@ body {
 }
 .span-logo-footer {
   color: #ffffff;
-}
-.span-logo-header {
-  color: #000000;
 }
